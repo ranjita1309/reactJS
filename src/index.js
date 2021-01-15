@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Calc1 from './component/class1/calc1'
+import SumAvg from './component/class2/avgsum1'
+import Mapper from './component/class2/mapper'
+import reportWebVitals from './reportWebVitals'; 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Mapper />
   </React.StrictMode>,
   document.getElementById('root')
 );
